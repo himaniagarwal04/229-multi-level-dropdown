@@ -7,7 +7,15 @@ import { CSSTransition } from 'react-transition-group';
 function App() {
   return (
     <Navbar>
-      
+
+      <img
+        alt="cb logo"
+        src="https://drive.google.com/uc?export=view&id=1Hj1rjs9d8mSbQp3LTRMkKh3Xwvck0QA2"
+        width="130"
+        height="50"
+        padding="30"
+        className="cb_logo"
+      />
 
       <NavItem icon={<CaretIcon />}>
         <DropdownMenu></DropdownMenu>
@@ -82,9 +90,9 @@ function DropdownMenu() {
         </div>
       </CSSTransition>
 
-  
 
-      
+
+
     </div>
   );
 }
