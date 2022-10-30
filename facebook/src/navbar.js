@@ -1,4 +1,4 @@
-import './index.css';
+import './navbar.css';
 import { ReactComponent as CaretIcon } from './icons/caret.svg';
 import { ReactComponent as CogIcon } from './icons/cog.svg';
 import { ReactComponent as ChevronIcon } from './icons/chevron.svg';

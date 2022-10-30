@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  background: #151616;
+  background: #E6E4ED;
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -12,12 +13,13 @@ code {
 }
 
 
+/*the navbar*/
 :root {
-  --bg:  #242526;
-  --bg-accent: #484a4d;
+  --bg:  #fefefe;
+  --bg-accent:
   --text-color: #dadce1;
-  --nav-size: 60px;
-  --border: 1px solid #474a4d;
+  --nav-size: 80px;
+  /*--border: 1px solid #474a4d*/
   --border-radius: 8px;
   --speed: 500ms; 
 }
@@ -64,7 +66,7 @@ a {
   --button-size: calc(var(--nav-size) * 0.5);
   width: var(--button-size);
   height: var(--button-size);
-  background-color: #484a4d;
+  background-color: #B6A5CBC9;
   border-radius: 50%;
   padding: 5px;
   margin: 2px;
@@ -89,8 +91,8 @@ a {
 
 .dropdown {
   position: absolute;
-  top: 58px;
-  width: 300px;
+  top: 78px;
+  width: 200px;
   transform: translateX(-45%);
   background-color: var(--bg);
   border: var(--border);
@@ -123,7 +125,7 @@ a {
 }
 
 .menu-item:hover {
-  background-color: #525357;
+  background-color: #cfbce5c9;
 }
 
 .icon-right {

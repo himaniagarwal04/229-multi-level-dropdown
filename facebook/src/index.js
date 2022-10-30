@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './navbar.css';
+import App from './navbar';
 
 ReactDOM.render(
   <React.StrictMode>
